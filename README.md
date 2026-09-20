@@ -8,10 +8,9 @@ brew install cybrixcc/tap/fortem
 fortem --demo
 ```
 
-The cask supports macOS on amd64 and arm64. Linux amd64 and arm64 builds are
-available through the installer and direct release archives. Fortem connects
-through your existing kubeconfig and starts read-only; it does not install a
-Helm chart or in-cluster component.
+The cask supports macOS and Linux on amd64 and arm64. Fortem connects through
+your existing kubeconfig and starts read-only; it does not install a Helm
+chart or in-cluster component.
 
 Release archives and checksums are published in
 [`cybrixcc/fortem-releases`](https://github.com/cybrixcc/fortem-releases/releases).
